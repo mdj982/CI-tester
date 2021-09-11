@@ -33,5 +33,5 @@ jobs:
         run: cd script; .\buildAll.ps1
 
       - name: Run
-        run: ls; cd script; .\runAllVS.ps1
+        run: ls; cd script; .\runAll.ps1
 
