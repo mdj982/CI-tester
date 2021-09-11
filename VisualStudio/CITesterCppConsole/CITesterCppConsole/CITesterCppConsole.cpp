@@ -1,9 +1,6 @@
 ﻿#include <iostream>
 #include <cassert>
-
-int add(int x, int y) {
-	return x + y;
-}
+#include "SubFunc.h"
 
 void testAddConst() {
 	const int x = 2;

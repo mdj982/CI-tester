@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1062
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CITesterCppConsole", "CITesterCppConsole\CITesterCppConsole.vcxproj", "{A7469738-4411-4E22-B8F7-B0E5DD411919}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CITesterCppConsoleTest", "CITesterCppConsoleTest\CITesterCppConsoleTest.vcxproj", "{83957C73-6C33-4976-B530-18AEC5A139F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{A7469738-4411-4E22-B8F7-B0E5DD411919}.Release|x64.Build.0 = Release|x64
 		{A7469738-4411-4E22-B8F7-B0E5DD411919}.Release|x86.ActiveCfg = Release|Win32
 		{A7469738-4411-4E22-B8F7-B0E5DD411919}.Release|x86.Build.0 = Release|Win32
+		{83957C73-6C33-4976-B530-18AEC5A139F7}.Debug|x64.ActiveCfg = Debug|x64
+		{83957C73-6C33-4976-B530-18AEC5A139F7}.Debug|x64.Build.0 = Debug|x64
+		{83957C73-6C33-4976-B530-18AEC5A139F7}.Debug|x86.ActiveCfg = Debug|Win32
+		{83957C73-6C33-4976-B530-18AEC5A139F7}.Debug|x86.Build.0 = Debug|Win32
+		{83957C73-6C33-4976-B530-18AEC5A139F7}.Release|x64.ActiveCfg = Release|x64
+		{83957C73-6C33-4976-B530-18AEC5A139F7}.Release|x64.Build.0 = Release|x64
+		{83957C73-6C33-4976-B530-18AEC5A139F7}.Release|x86.ActiveCfg = Release|Win32
+		{83957C73-6C33-4976-B530-18AEC5A139F7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
