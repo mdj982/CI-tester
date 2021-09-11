@@ -22,7 +22,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
 
       # Fetch Visual Studio
       - name: Add msbuild to PATH
@@ -34,11 +34,11 @@ jobs:
     steps:
       # Check workspace
       - name: Check workspace
-      - run: ls $GITHUB_WORKSPACE
+        run: ls $GITHUB_WORKSPACE
 
       # Check MSBuild
       - name: Check MSBuild
-      - run: MSBuild
+        run: MSBuild
 
 
 
