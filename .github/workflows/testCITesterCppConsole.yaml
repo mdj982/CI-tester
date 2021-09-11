@@ -17,24 +17,19 @@ on:
 jobs:
 
   setup:
+
     runs-on: windows-latest
 
     steps:
+
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v2
 
-      # Fetch Visual Studio
-      - name: Add msbuild to PATH
+      - name: Fetch Visual Studio
         uses: microsoft/setup-msbuild@v1.0.2
 
       # Check workspace
       - name: Check workspace
-        run: ls $GITHUB_WORKSPACE
-
-      # Check MSBuild
-      - name: Check MSBuild
-        run: MSBuild
-
-
+        run: ls
 
