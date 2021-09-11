@@ -22,14 +22,16 @@ jobs:
 
     steps:
 
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      # $GITHUB_WORKSPACE
       - name: Checkout repository
         uses: actions/checkout@v2
 
       - name: Fetch Visual Studio
         uses: microsoft/setup-msbuild@v1.0.2
 
-      # Check workspace
-      - name: Check workspace
-        run: ls
+      - name: Build
+        run: .\VisualStudio\buildAllVS.ps1
+
+      - name: Run
+        run: .\VisualStudio\runAllVS.ps1
 
