@@ -30,8 +30,12 @@ jobs:
         uses: microsoft/setup-msbuild@v1.0.2
 
       - name: Build
-        run: .\VisualStudio\buildAllVS.ps1
+        run: cd script
+        run: ls
+        run: .\buildAll.ps1
 
       - name: Run
-        run: .\VisualStudio\runAllVS.ps1
+        run: cd script
+        run: ls
+        run: .\runAllVS.ps1
 

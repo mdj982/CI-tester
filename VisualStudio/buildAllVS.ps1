@@ -14,8 +14,6 @@ $subdirs = @(
 )
 #>
 
-$subdirs
-
 If ($subdirs.Count -eq 1) {
     cd $subdirs
     .\build.ps1
