@@ -80,7 +80,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\maode\Desktop\Workspace\GitHub\CI-tester\VisualStudio\CITesterCppConsole\CITesterCppConsole;$(IncludePath)</IncludePath>
+    <IncludePath>..\CITesterCppConsole;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
